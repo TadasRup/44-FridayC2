@@ -1,0 +1,67 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px 0;
+    width: 1175px;
+    margin: 0 calc((100% - 1175px)  / 2);
+}
+
+.container > .bit-logo {
+    align-items: center;
+}
+
+.container > .logo {
+    align-items: center;
+}
+
+.header-text {
+    line-height: 100%;
+    color: #ffff;
+    font-size: 2em;;
+}
+
+.header-text > * {
+    vertical-align: middle;
+}
+
+.link {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    color: #ffff;
+    margin-left: 20px;
+}
+
+.header-text {
+    color: #ffff;
+}
+
+.button {
+    padding: 0.5em;
+    background-color: #fff;
+    color: #000000;
+    line-height: 1em;
+    text-decoration: none;
+    user-select: none;
+    text-align: center;
+    width: 120px;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    flex-basis: 400px;
+    width: 400px;
+    height: 299px;
+}
+
+.herotext {
+    color: #fff;
+}
+
+.group-image{
+margin-bottom: 4em;
+width: 90%;
+}
