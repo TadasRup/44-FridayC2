@@ -62,6 +62,43 @@
 }
 
 .group-image{
-margin-bottom: 4em;
-width: 90%;
+    margin-bottom: 4em;
+    width: 90%;
+}
+
+.main-text {
+    text-align: center;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.main-text > h4 {
+    color: #74C69D;
+}
+
+.partners {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    padding: 100px;
+    gap: 20px;
+}
+
+main > .container {
+    flex-direction: column;
+}
+
+.main-button {
+    padding: 0.6em;
+    background-color: #212529;
+    color: #ffffff;
+    line-height: 0.1em;
+    text-decoration: none;
+    user-select: none;
+    text-align: center;
+    width: 200px;
+    border-radius: 5px;
 }
