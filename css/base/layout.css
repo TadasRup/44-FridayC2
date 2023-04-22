@@ -80,6 +80,14 @@
     color: #74C69D;
 }
 
+
+.bottom-text > h4 {
+    color: #74C69D;
+}
+
+.bottom-text > h1 {
+    font-family: 'Times New Roman', Times, serif;
+}
 .partners {
     display: flex;
     align-items: center;
@@ -104,4 +112,43 @@ main > .container {
     text-align: center;
     width: 200px;
     border-radius: 5px;
+}
+
+.main-top {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 90px;
+    margin-top: 7em;
+    margin: 0 calc((100% - 1175px)  / 2);
+}
+
+.people-group {
+    height: 380px;
+    margin-left: 110px;
+}
+
+.top-text {
+    text-align: center;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    padding: 0em;
+}
+
+.bottom-text{
+    text-align: center;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+}
+
+.talents{
+    display: flex;
+    align-items: center;
+    margin-top: 60px;
+    margin-left: 108px;
 }
