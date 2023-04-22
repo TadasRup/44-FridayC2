@@ -17,3 +17,7 @@ body {
 .container >.bg-main {
     background-color: #ffff;
 }
+
+.bg-footer {
+    background-color: #74C69D;
+}
