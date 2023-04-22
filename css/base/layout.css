@@ -121,6 +121,15 @@ main > .container {
     gap: 90px;
     margin-top: 7em;
     margin: 0 calc((100% - 1175px)  / 2);
+    flex-wrap: wrap;
+}
+
+.main-top > *:nth-child(3) {
+    flex-basis: 45%;
+}
+
+.introduction {
+    height: 450px;
 }
 
 .people-group {
@@ -138,6 +147,7 @@ main > .container {
     padding: 0em;
 }
 
+
 .bottom-text{
     text-align: center;
     gap: 20px;
@@ -151,4 +161,39 @@ main > .container {
     align-items: center;
     margin-top: 60px;
     margin-left: 108px;
+}
+
+.bg-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 15px;
+    width: 89.08rem;
+    gap: 20px;
+    margin-top: 7em;
+    color: #ffffff;
+
+}
+
+.socials {
+    display: flex;
+    gap: 1em;
+    flex-wrap: wrap;
+    font-size: 20px;
+}
+.socials > .social-link {
+    width: 1em;
+    height: 1em;
+    font-size: inherit;
+    line-height: 1em;
+    text-align: center;
+    color: #f2f0f0;
+    text-decoration: none;
+}
+
+.socials > .social-link:hover {
+    color: #f1ecf7;
+    margin: -0.25em;
+    font-size: 2em;
 }
