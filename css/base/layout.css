@@ -165,6 +165,7 @@ main > .container {
     margin: auto;
     justify-content: space-between;
     padding: 3em;
+    margin: 0 calc((100% - 1175px)  / 2);
 }
 
 .talents h1, .talents p {
