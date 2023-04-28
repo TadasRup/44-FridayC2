@@ -245,3 +245,42 @@ main > .container {
     border-radius: 5px;
 
 }
+
+@media (max-width: 475px) {
+    .bg-header > .container {
+      width: 420px;
+      margin: 0 calc(50% - 200px);
+    }
+
+@media (max-width: 475px) {
+    .container > .hero {
+      width: 400px;
+      margin: 0 calc(50% - 200px);
+    }
+
+@media (max-width: 475px) {
+    .partners {
+        width: 200px;
+        margin: 0 calc(50% - 200px);
+        }
+    }
+
+@media (max-width: 745px) {
+    .main-top {
+        width: 200px;
+        margin: 0 calc(50% - 100px);
+    }
+}
+
+@media (max-width: 275px) {
+    .main-container {
+      width: 200px;
+      margin: 0 calc(50% - 200px);
+    }
+
+@media (max-width: 25px) {
+.bg-footer {
+     width: 20px;
+     margin: 0 calc(50% - 100px);
+    }
+}
