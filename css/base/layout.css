@@ -251,12 +251,14 @@ main > .container {
       width: 420px;
       margin: 0 calc(50% - 200px);
     }
+}
 
 @media (max-width: 475px) {
     .container > .hero {
       width: 400px;
       margin: 0 calc(50% - 200px);
     }
+}
 
 @media (max-width: 475px) {
     .partners {
@@ -277,6 +279,7 @@ main > .container {
       width: 200px;
       margin: 0 calc(50% - 200px);
     }
+}
 
 @media (max-width: 25px) {
 .bg-footer {
