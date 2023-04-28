@@ -228,21 +228,20 @@ main > .container {
 .view-team{
     display: flex;
     align-items: center;
-    gap: 20px 10px;
+    margin-top: 2.7em;
+    margin-left: 30.5em;
 }
 
 .team-button {
+    padding: 0.6em;
     background-color: #212529;
     color: #ffffff;
-    text-align: center;
+    line-height: 0.1em;
     text-decoration: none;
     user-select: none;
     text-align: center;
-    line-height: 0.1em;
-    width: 200px;
-    padding: 0.6em;
+    width: 120px;
+    height: 27px;
     border-radius: 5px;
-    margin-left: 31em;
-   
 
 }
