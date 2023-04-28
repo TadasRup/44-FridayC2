@@ -195,10 +195,10 @@ main > .container {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 15px;
-    width: 89.08rem;
+    padding: 1px 1px;
+    width: 88.7rem;
     gap: 20px;
-    margin-top: 7em;
+    margin-top: 0.5em;
     color: #ffffff;
 
 }
@@ -228,7 +228,7 @@ main > .container {
 .view-team{
     display: flex;
     align-items: center;
-    margin-top: 2.7em;
+    margin-top: 2.5em;
     margin-left: 30.5em;
 }
 
